@@ -148,9 +148,9 @@
 |correlações negativas|![alt text][cel2] Os atributos com essa tonalidade tendem a ser fortemente negativos Exs: (0,3 - 2,5 - 3,8 - 3,10 ...)          |
 |correlações neutras  |![alt text][cel3] Os atributos com essa tonalidade tendem a ser fortemente neutra Exs: (1,3 - 1,8 - 4,9 ...)                    |
 
-[cel1]: https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/celula%201.png "correlação forte"
-[cel2]: https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/celula%202.png "correlação média"
-[cel3]: https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/celula%203.png "correlação fraca"
+[cel1]: https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/celula%201.png "correlação positivas"
+[cel2]: https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/celula%202.png "correlação negativas"
+[cel3]: https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/celula%203.png "correlação neutras"
 
 
 
