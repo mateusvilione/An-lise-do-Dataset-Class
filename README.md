@@ -2,6 +2,11 @@
 
 ## 1-) uma amostra correspondente a 30% da base de dados original.
 
+```python 
+    amostra=data_df.sample(np.floor(0.3*data_df.shape[0]))
+    print(amostra)
+```
+
 ### Amostra correspondente a 30% da base de dados original
 |     |  ID |      RI |    Na |   Mg |   Ai |    Si |    K |    Ca |   Ba |   Fe | Type|
 |-----|-----|---------|-------|------|------|-------|------|-------|------|------|-----|
@@ -70,6 +75,13 @@
 
 ## 2-) faça um comparativo entre a mostra gerada e a base de dados original (em relação a valores médios de seus atributos.
 
+```python
+    print('media da base')
+    print(data_df.mean())
+    print('media da amostra')
+    print(amostra.mean())
+```
+
 |media da base     |media da amostra  |
 |------------------|------------------|
 |ID      107.500000|ID      112.625000|
@@ -85,15 +97,32 @@
 |Type      2.780374|Type      2.875000|
 
 ## 3-) imprima a média, o desvio padrão, o menor e maior valor encontrado no atributo Potassium
+
 > media da base para o atributo potassium = 0.49705607476635494
-> 
+
+```python
+    print(data_df['K'].mean())
+```
 > desvio padrão da base para o atributo potassium = 0.6521918455589802
-> 
+
+```python
+    print(data_df['K'].std())
+```
 > maior da base para o atributo potassium = 6.21
-> 
+
+```python
+    print(data_df['K'].max())
+```
 > menor da base para o atributo potassium = 0.0
 
+```python
+    print(data_df['K'].min())
+```
 ## 4-) a quantidade de instâncias por tipo diferente de vidro (atributo Type of glass) quantidade de instâncias por tipo diferente de vidro
+
+```python
+    print(data_df['Type'].value_counts())
+```
 
 | I | QT |
 |---|----|
@@ -105,6 +134,10 @@
 | 6 |  9 |
 
 ## 5-) procure identificar correlações positivas, negativas e neutras entre alguns atributos que constituem a base de dados.
+
+```python
+    plt.matshow(data_df.corr())
+```
 
 ### Matriz de correlação
 ![alt text](https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/1.png "Matriz de correlação")

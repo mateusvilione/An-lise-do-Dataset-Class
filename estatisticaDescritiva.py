@@ -3,14 +3,14 @@
 """
 Created on Sat Oct 15 19:11:09 2016
 
-@author: mateus
+@author: Mateus Vilione Braz Lima
 """
 
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from pandas.tools.plotting import scatter_matrix
-data_df = pd.read_csv('C:/Users/lab4/Downloads/glass.csv')
+data_df = pd.read_csv('/home/ubuntu/workspace/glass.csv')
 print('Amostra correspondente a 30% da base de dados original')
 amostra=data_df.sample(np.floor(0.3*data_df.shape[0]))
 print(amostra)

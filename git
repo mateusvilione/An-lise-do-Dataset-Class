@@ -1,0 +1,11 @@
+echo "# Analise-do-Dataset-Class" >> README.md
+
+git init
+
+git add .
+git commit -m "README.md
+"
+
+git remote add origin https://github.com/mateusvilione/Analise-do-Dataset-Class.git
+
+git push -u origin master
