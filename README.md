@@ -106,17 +106,19 @@
 
 ## 5-) procure identificar correlações positivas, negativas e neutras entre alguns atributos que constituem a base de dados.
 
-![alt text](https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/1.png "Logo Bibliotec")
+### Matriz de correlação
+![alt text](https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/1.png "Matriz de correlação")
 
-|     correlações     |                                                   atributos                                                         |
-|---------------------|---------------------------------------------------------------------------------------------------------------------|
-|correlações positivas|[cel1] Os atributos com essa tonalidade tendem a ser fortemente positivos Exs: ele com ele mesmo ou (0,10 - 1,7 ...) |
-|correlações negativas|[cel2] Os atributos com essa tonalidade tendem a ser fortemente negativos Exs: (0,3 - 2,5 - 3,8 - 3,10 ...)          |
-|correlações neutras  |[cel3] Os atributos com essa tonalidade tendem a ser fortemente neutra Exs: (1,3 - 1,8 - 4,9 ...)                    |
+|     correlações     |                                                       atributos                                                                |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------------|
+|correlações positivas|![alt text][cel1] Os atributos com essa tonalidade tendem a ser fortemente positivos Exs: ele com ele mesmo ou (0,10 - 1,7 ...) |
+|correlações negativas|![alt text][cel2] Os atributos com essa tonalidade tendem a ser fortemente negativos Exs: (0,3 - 2,5 - 3,8 - 3,10 ...)          |
+|correlações neutras  |![alt text][cel3] Os atributos com essa tonalidade tendem a ser fortemente neutra Exs: (1,3 - 1,8 - 4,9 ...)                    |
 
-[cel1]: https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/celula%201.png
-[cel2]: https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/celula%202.png
-[cel3]: https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/celula%203.png
+[cel1]: https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/celula%201.png "correlação forte"
+[cel2]: https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/celula%202.png "correlação média"
+[cel3]: https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/celula%203.png "correlação fraca"
+
 
 
 ---
