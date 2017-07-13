@@ -106,7 +106,7 @@
 
 ## 5-) procure identificar correlações positivas, negativas e neutras entre alguns atributos que constituem a base de dados.
 
-![alt text](https://github.com/ "Logo Bibliotec")
+![alt text](https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/1.png "Logo Bibliotec")
 
 |     correlações     |                                                   atributos                                                         |
 |---------------------|---------------------------------------------------------------------------------------------------------------------|
@@ -114,9 +114,9 @@
 |correlações negativas|[cel2] Os atributos com essa tonalidade tendem a ser fortemente negativos Exs: (0,3 - 2,5 - 3,8 - 3,10 ...)          |
 |correlações neutras  |[cel3] Os atributos com essa tonalidade tendem a ser fortemente neutra Exs: (1,3 - 1,8 - 4,9 ...)                    |
 
-[cel1]: https://github.com/
-[cel2]: https://github.com/
-[cel3]: https://github.com/
+[cel1]: https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/celula%201.png
+[cel2]: https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/celula%202.png
+[cel3]: https://github.com/mateusvilione/Analise-do-Dataset-Class/blob/master/img/celula%203.png
 
 
 ---
